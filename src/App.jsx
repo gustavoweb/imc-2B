@@ -8,7 +8,7 @@ export default function App() {
         <div className="imc-card">
           <h1>Calculadora de IMC</h1>
           <p>Descubra seu índice de Massa Corporal</p>
-        </div>
+      
 
         <div className="imc-form">
           <input 
@@ -28,8 +28,14 @@ export default function App() {
           <button>Limpar</button>
 
 
-        </div>
+        </div> {/* imc-form */}
 
+          <div className="result-card">
+            <h1 className='valor-result'>26</h1>
+            <p className='resposta-result'>Peso Normal</p>
+          </div>
+
+        </div> {/* imc-card */}
       </div> {/* imc-container */}
     </>
   )
