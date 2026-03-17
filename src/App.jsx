@@ -31,8 +31,8 @@ export default function App() {
         </div> {/* imc-form */}
 
           <div className="result-card">
-            <h1 className='valor-result'>26</h1>
-            <p className='resposta-result'>Peso Normal</p>
+            <h2 className='valor-result'>26</h2>
+            <small className='resposta-result'>Peso Normal</small>
           </div>
 
         </div> {/* imc-card */}
